@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <style>
+  button {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+  }
+  img {
+    width: 1000px;
+    position: absolute;
+    z-index: -1;
+  }
+  #canada{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    width: 47px;
+  }
+  #display-result{
+    position: absolute;
+    top: 420px;
+    left: 150px;
+  }
+  #display-result1 {
+    position: absolute;
+    top: 620px;
+    left: 800px;
+
+  }
+  #display-result2 {
+    position: absolute;
+    top: 870px;
+    left: 500px;
+  }
+  #display-result3 {
+    position: absolute;
+    top: 720px;
+    left: 280px;
+  }
+  #display-result4{
+    position: absolute;
+    top: 820px;
+    left: 370px;
+  }
+  #display-result5 {
+    position: absolute;
+    top: 830px;
+    left: 620px;
+  }
+  #display-result6 {
+    position: absolute;
+    top: 260px;
+    left: 310px;
+  }
+  #alaska {
+    position: absolute;
+    top: 240px;
+    left: 310px;
+    width: 70px;
+  }
+  #finland {
+    position: absolute;
+    top: 810px;
+    left: 620px;
+    width: 70px
+  }
+  #greenland {
+    position: absolute;
+    top: 700px;
+    left: 280px;
+    width: 80px
+
+  }
+  #iceland {
+    position: absolute;
+    top: 800px;
+    left: 370px;
+    width: 70px;
+  }
+  #norway {
+    position: absolute;
+    top: 850px;
+    left: 470px;
+    width: 100px;
+  }
+  #russia {
+    position: absolute;
+    top: 600px;
+    left: 800px;
+  }
+  
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input id="canada" type="text">
+<button onclick="newFunction();newFunctionOne();newFunctionTwo();newFunctionThree(); newFunctionFour();newFunctionFive();newFunctionSix()">Check</button>
+<div id="display-result"></div>
+
+<input id="russia" type="text">
+<div id="display-result1"></div>
+
+
+<input id="norway" type="text">
+<div id="display-result2"></div>
+
+<input id="greenland" type="text">
+<div id="display-result3"></div>
+
+<input id="iceland" type="text">
+<div id="display-result4"></div>
+
+<input id="finland" type="text">
+<div id="display-result5"></div>
+
+<input id="alaska" type="text">
+<div id="display-result6"></div>
+  <script>
+  const title = document.createElement("title")
+  const head = document.head
+const img = document.createElement("img")
+const div = document.createElement("div")
+const body = document.body
+title.innerHTML = "Arctic Quiz"
+img.src = "https://upload.wikimedia.org/wikipedia/commons/9/91/Arctic_Ocean_location_map.svg"
+body.append(img, div)
+head.append(title)
+
+function newFunction(){
+if (document.getElementById("canada").value === "Canada" || document.getElementById("canada").value === "canada") {
+  document.getElementById("display-result").innerHTML = "correct!"
+}
+}
+
+function newFunctionOne(){
+if (document.getElementById("russia").value === "Russia" || document.getElementById("russia").value === "russia") {
+  document.getElementById("display-result1").innerHTML = "correct!"
+}
+}
+
+function newFunctionTwo(){
+if (document.getElementById("norway").value === "Norway" || document.getElementById("norway").value === "norway") {
+  document.getElementById("display-result2").innerHTML = "correct!"
+}
+}
+
+
+function newFunctionThree(){
+if (document.getElementById("greenland").value === "Greenland" || document.getElementById("greenland").value === "greenland") {
+  document.getElementById("display-result3").innerHTML = "correct!"
+}
+}
+
+function newFunctionFour(){
+if (document.getElementById("iceland").value === "Iceland" || document.getElementById("iceland").value === "iceland") {
+  document.getElementById("display-result4").innerHTML = "correct!"
+}
+}
+
+function newFunctionFive(){
+if (document.getElementById("finland").value === "Finland" || document.getElementById("iceland").value === "finland") {
+  document.getElementById("display-result5").innerHTML = "correct!"
+}
+}
+function newFunctionSix(){
+if (document.getElementById("alaska").value === "Alaska" || document.getElementById("alaska").value === "alaska") {
+  document.getElementById("display-result6").innerHTML = "correct!"
+}
+}
+
+
+
+
+</script>
+</body>
+</html>
