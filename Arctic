@@ -55,6 +55,81 @@
     top: 260px;
     left: 310px;
   }
+  #display-result7 {
+    position: absolute;
+    top: 220px;
+    left: 410px;
+  } 
+  #display-result8 {
+    position: absolute;
+    top: 630px;
+    left: 250px;
+  }
+  #display-result9 {
+    position: absolute;
+    top: 560px;
+    left: 70px;
+  }
+  #display-result10 {
+    position: absolute;
+    top: 690px;
+    left: 600px;
+  }
+  #display-result11 {
+    position: absolute;
+    top: 720px;
+    left: 430px;
+  }
+  #display-result12 {
+    position: absolute;
+    top: 70px;
+    left: 410px;
+  }
+  #display-result13 {
+    position: absolute;
+    top: 520px;
+    left: 270px;
+  }
+  #display-result14 {
+    position: absolute;
+    top: 630px;
+    left: 610px;
+  }
+  #display-result15 {
+    position: absolute;
+    top: 580px;
+    left: 520px;
+  }
+  #display-result16 {
+    position: absolute;
+    top: 650px;
+    left: 500px;
+  }
+  #display-result17 {
+    position: absolute;
+    top: 850px;
+    left: 430px;
+  }
+  #display-result18 {
+    position: absolute;
+    top: 320px;
+    left: 280px;
+  }
+  #display-result19 {
+    position: absolute;
+    top: 300px;
+    left: 380px;
+  }
+  #display-result20 {
+    position: absolute;
+    top: 720px;
+    left: 200px;
+  }
+  #display-result21 {
+    position: absolute;
+    top: 370px;
+    left: 260px;
+  }
   #alaska {
     position: absolute;
     top: 240px;
@@ -80,16 +155,107 @@
     left: 370px;
     width: 70px;
   }
+
   #norway {
     position: absolute;
     top: 850px;
-    left: 470px;
+    left: 500px;
     width: 100px;
   }
   #russia {
     position: absolute;
     top: 600px;
     left: 800px;
+  }
+  #beringstrait {
+    position: absolute;
+    top: 200px;
+    left: 410px;
+    width: 100px;
+  }
+  #baffinbay {
+    position: absolute;
+    top: 610px;
+    left: 250px;
+    width: 100px;
+  }
+  #hudsonbay {
+    position: absolute;
+    top: 540px;
+    left: 70px;
+    width: 100px;
+  }
+  #barentssea {
+    position: absolute;
+    top: 670px;
+    left: 600px;
+    width: 80px;
+  }
+  #greenlandsea{
+    position: absolute;
+    top: 700px;
+    left: 430px;
+    width: 90px;
+  }
+  #aleutians {
+    position: absolute;
+    top: 50px;
+    left: 410px;
+    width: 80px;
+  }
+  #queen {
+    position: absolute;
+    top: 500px;
+    left: 270px;
+    width: 150px;
+  }
+  #nz {
+    position: absolute;
+    top: 610px;
+    left: 610px;
+    width: 100px;
+  }  
+  #fland {
+    position: absolute;
+    top: 560px;
+    left: 520px;
+    width: 110px;
+  }
+  #svalbard {
+    position: absolute;
+    top: 630px;
+    left: 500px;
+    width: 70px;
+  }
+  #faroe {
+    position: absolute;
+    top: 830px;
+    left: 430px;
+    width: 50px;
+  }
+  #prudhoe {
+    position: absolute;
+    top: 300px;
+    left: 280px;
+    width: 80px;
+  }
+  #barrow {
+    position: absolute;
+    top: 280px;
+    left: 380px;
+    width: 60px;
+  }
+  #nuuk {
+    position: absolute;
+    top: 700px;
+    left: 200px;
+    width: 50px;
+  }
+  #inuvik {
+    position: absolute;
+    top: 350px;
+    left: 260px;
+    width: 60px;
   }
   
   </style>
@@ -100,7 +266,7 @@
 <body>
 
 <input id="canada" type="text">
-<button onclick="newFunction();newFunctionOne();newFunctionTwo();newFunctionThree(); newFunctionFour();newFunctionFive();newFunctionSix()">Check</button>
+<button onclick="newFunction();newFunctionOne();newFunctionTwo();newFunctionThree(); newFunctionFour();newFunctionFive();newFunctionSix();newFunctionSeven();newFunctionEight();newFunctionNine();newFunctionTen();newFunctionEleven();newFunctionTwelve();newFunctionThirteen();newFunctionFourteen();newFunctionFifteen();newFunctionSixteen();newFunctionSeventeen();newFunctionEighteen();newFunctionNineteen();newFunctionTwenty();newFunctionTwentyOne();newFunctionTwentyTwo()">Check</button>
 <div id="display-result"></div>
 
 <input id="russia" type="text">
@@ -121,6 +287,58 @@
 
 <input id="alaska" type="text">
 <div id="display-result6"></div>
+
+
+<input id="beringstrait" type="text">
+<div id="display-result7"></div>
+
+<input id="baffinbay" type="text">
+<div id="display-result8"></div>
+
+<input id="hudsonbay" type="text">
+<div id="display-result9"></div>
+
+<input id="barentssea" type="text">
+<div id="display-result10"></div>
+
+<input id="greenlandsea" type="text">
+<div id="display-result11"></div>
+
+
+<input id="aleutians" type="text">
+<div id="display-result12"></div>
+
+<input id="queen" type="text">
+<div id="display-result13"></div>
+
+<input id="nz" type="text">
+<div id="display-result14"></div>
+
+<input id="fland" type="text">
+<div id="display-result15"></div>
+
+<input id="svalbard" type="text">
+<div id="display-result16"></div>
+
+<input id="faroe" type="text">
+<div id="display-result17"></div>
+
+<input id="prudhoe" type="text">
+<div id="display-result18"></div>
+
+<input id="barrow" type="text">
+<div id="display-result19"></div>
+
+<input id="nuuk" type="text">
+<div id="display-result20"></div>
+
+<input id="inuvik" type="text">
+<div id="display-result21"></div>
+
+<input id="troms" type="text">
+<div id="display-result22"></div>
+
+
   <script>
   const title = document.createElement("title")
   const head = document.head
@@ -164,7 +382,7 @@ if (document.getElementById("iceland").value === "Iceland" || document.getElemen
 }
 
 function newFunctionFive(){
-if (document.getElementById("finland").value === "Finland" || document.getElementById("iceland").value === "finland") {
+if (document.getElementById("finland").value === "Finland" || document.getElementById("finland").value === "finland") {
   document.getElementById("display-result5").innerHTML = "correct!"
 }
 }
@@ -174,7 +392,89 @@ if (document.getElementById("alaska").value === "Alaska" || document.getElementB
 }
 }
 
+function newFunctionSeven(){
+if (document.getElementById("beringstrait").value === "Bering Strait" || document.getElementById("beringstrait").value === "bering strait" || document.getElementById("beringstrait").value === "bering Strait" || document.getElementById("beringstrait").value === "Bering strait" )  {
+  document.getElementById("display-result7").innerHTML = "correct!"
+}
+}
+function newFunctionEight(){
+if (document.getElementById("baffinbay").value === "baffin bay" || document.getElementById("baffinbay").value === "Baffin Bay" || document.getElementById("baffinbay").value === "Baffin bay" || document.getElementById("baffinbay").value === "baffin Bay" )  {
+  document.getElementById("display-result8").innerHTML = "correct!"
+}
+}
 
+function newFunctionNine(){
+if (document.getElementById("hudsonbay").value === "Hudson Bay" || document.getElementById("hudsonbay").value === "Hudson bay" || document.getElementById("hudsonbay").value === "hudson bay" || document.getElementById("hudsonbay").value === "hudson Bay" )  {
+  document.getElementById("display-result9").innerHTML = "correct!"
+}
+}
+function newFunctionTen(){
+if (document.getElementById("barentssea").value === "barents sea" || document.getElementById("barentssea").value === "Barents Sea" || document.getElementById("barentssea").value === "barents Sea" || document.getElementById("barentssea").value === "Barents sea" )  {
+  document.getElementById("display-result10").innerHTML = "correct!"
+}
+}
+function newFunctionEleven(){
+if (document.getElementById("greenlandsea").value === "greenland sea" || document.getElementById("greenlandsea").value === "Greenland Sea" || document.getElementById("greenlandsea").value === "greenland Sea" || document.getElementById("greenlandsea").value === "Greenland sea" )  {
+  document.getElementById("display-result11").innerHTML = "correct!"
+}
+}
+
+function newFunctionTwelve(){
+if (document.getElementById("aleutians").value === "aleutians" || document.getElementById("aleutians").value === "Aleutians") {
+  document.getElementById("display-result12").innerHTML = "correct!"
+}
+}
+function newFunctionThirteen(){
+if (document.getElementById("queen").value === "Queen Elizabeth Islands" || document.getElementById("queen").value === "Queen elizabeth islands" || document.getElementById("queen").value === "queen Elizabeth Islands" || document.getElementById("queen").value === "queen elizabeth islands" ||document.getElementById("queen").value === "queen Elizabeth islands" || document.getElementById("queen").value === "Queen Elizabeth islands" ) {
+  document.getElementById("display-result13").innerHTML = "correct!"
+}
+}
+
+function newFunctionFourteen(){
+if (document.getElementById("nz").value === "Novaya Zemlya" || document.getElementById("nz").value === "novaya zemlya" || document.getElementById("nz").value === "Novaya zemlya" ||document.getElementById("nz").value === "novaya Zemlya") {
+  document.getElementById("display-result14").innerHTML = "correct!"
+}
+}
+function newFunctionFifteen(){
+if (document.getElementById("fland").value === "Franz Josef Land" || document.getElementById("fland").value === "Franz Josef land" || document.getElementById("fland").value === "Franz josef land" || document.getElementById("fland").value === "franz Josef land" ||document.getElementById("fland").value === "franz Josef Land" || document.getElementById("fland").value === "franz josef land" ||document.getElementById("fland").value === "franz josef Land" || document.getElementById("fland").value === "Franz josef Land") {
+  document.getElementById("display-result15").innerHTML = "correct!"
+}
+}
+function newFunctionSixteen(){
+if (document.getElementById("svalbard").value === "Svalbard" || document.getElementById("svalbard").value === "svalbard") {
+  document.getElementById("display-result16").innerHTML = "correct!"
+}
+}
+function newFunctionSeventeen(){
+if (document.getElementById("faroe").value === "faroe" || document.getElementById("faroe").value === "Faroe") {
+  document.getElementById("display-result17").innerHTML = "correct!"
+}
+}
+function newFunctionEighteen(){
+if (document.getElementById("prudhoe").value === "Prudhoe Bay" || document.getElementById("prudhoe").value === "Prudhoe bay" || document.getElementById("prudhoe").value === "prudhoe bay" || document.getElementById("prudhoe").value === "prudhoe Bay" )  {
+  document.getElementById("display-result18").innerHTML = "correct!"
+}
+}
+function newFunctionNineteen(){
+if (document.getElementById("barrow").value === "Barrow" || document.getElementById("barrow").value === "barrow") {
+  document.getElementById("display-result19").innerHTML = "correct!"
+}
+}
+function newFunctionTwenty(){
+if (document.getElementById("nuuk").value === "Nuuk" || document.getElementById("nuuk").value === "nuuk") {
+  document.getElementById("display-result20").innerHTML = "correct!"
+}
+}
+function newFunctionTwentyOne(){
+if (document.getElementById("inuvik").value === "Inuvik" || document.getElementById("inuvik").value === "inuvik") {
+  document.getElementById("display-result21").innerHTML = "correct!"
+}
+}
+function newFunctionTwentyTwo(){
+if (document.getElementById("troms").value === "Troms" || document.getElementById("troms").value === "troms") {
+  document.getElementById("display-result22").innerHTML = "correct!"
+}
+}
 
 
 </script>
